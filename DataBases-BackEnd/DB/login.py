@@ -49,7 +49,7 @@ def register():
     student = c.fetchone()
 
     if not student:
-        print("❌ No matching student found. Cannot register.\n")
+        print(" No matching student found. Cannot register.\n")
         return
 
     try:
@@ -58,10 +58,10 @@ def register():
             (username, password)
         )
         conn.commit()
-        print("✅ Registered successfully.\n")
+        print(" Registered successfully.\n")
 
     except sqlite3.IntegrityError:
-        print("❌ User already exists.\n")
+        print(" User already exists.\n")
 
 
 # --- Login (ONLY if user exists exactly) ---
