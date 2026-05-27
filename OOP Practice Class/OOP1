@@ -1,0 +1,24 @@
+#OOP1 
+'''
+Store personal information
+Define each person with data:
+    first name
+    last name
+    age
+    occupation
+Create a new person called Matti and assign personal details
+'''
+
+class person:
+   first_name = ""
+   last_name = "fff"
+   age = 0
+   occupation = ""
+
+Matti = person()
+Matti.first_name = "Matti"
+Matti.last_name = "Meikäläinen"
+Matti.age = 34
+
+print(Matti.first_name, Matti.last_name, Matti.age)
+

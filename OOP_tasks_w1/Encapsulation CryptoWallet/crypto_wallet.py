@@ -1,7 +1,7 @@
 
 class CryptoWallet:
     def __init__(self, owner):                   # Initializer with owner name
-        self._walletId = str[]   # private
+        self._walletId = "001"   # private
         self._balance = 0.0                      # private
         self._transactions = []                  # private
         self.owner = owner                       # public

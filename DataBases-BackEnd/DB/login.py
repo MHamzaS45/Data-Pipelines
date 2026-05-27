@@ -49,7 +49,7 @@ def register():
     student = c.fetchone()
 
     if not student:
-        print("❌ No matching student found. Cannot register.\n")
+        print(" No matching student found. Cannot register.\n")
         return
 
     try:
